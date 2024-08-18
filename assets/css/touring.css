@@ -1,0 +1,87 @@
+
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;  
+    font-size: 24px;
+}
+
+.price {
+    font-size: 28px;
+    color: #ff6600;
+    margin: 10px 0;
+}
+
+.note {
+    font-size: 12px;
+    color: #888;
+}
+
+.hotel {
+    margin-bottom: 20px;
+}
+
+.hotel-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.price-note {
+    font-size: 12px;
+    color: #ff0000;
+    margin: 0 0 18px 0;
+}
+
+.price-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 48%;
+    text-align: center;
+    position: relative;
+}
+
+.price-item p {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.choose-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* position: absolute; */
+    bottom: 0px;
+    right: 20px;
+    width: 70px; /* Specify the desired width */
+    height: 40px; /* Specify the desired height */
+}
+
+.choose-button:hover {
+    background-color: #e65c00;
+}

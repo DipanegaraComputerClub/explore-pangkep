@@ -1,0 +1,45 @@
+<style>
+        .hotel-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .hotel {
+            border: 1px solid #ccc;
+            padding: 16px;
+            margin: 16px;
+            flex: 1 0 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .hotel h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .hotel p {
+            margin: 5px 0;
+        }
+        .price-option {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .price-option div {
+            width: 100%;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .price-option button {
+            background-color: orange;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .price-option button:hover {
+            background-color: darkorange;
+        }
+        .hotel img {
+            width: 100%;
+            height: auto;
+        }
